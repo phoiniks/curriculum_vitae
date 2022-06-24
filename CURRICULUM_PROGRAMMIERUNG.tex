@@ -1,0 +1,131 @@
+\documentclass[11pt, a4paper]{moderncv}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[autostyle]{csquotes}
+\usepackage{xpatch}
+\usepackage[left=2.4cm, right=1.0cm, top=1.7cm, bottom=2.0cm]{geometry}
+%% \usepackage{fontawesome}
+
+\moderncvtheme[blue]{classic}
+%% \moderncvicons{awesome}
+
+\title{CURRICULUM VITAE} 
+\name{Andreas}{Grell}
+\address{Kühnehöfe 25}{22761 Hamburg}
+\phone[fixed]{040\,80 60 37 99}
+\phone[mobile]{0176\,45 60 65 85}
+\email{andreas.grell@grellopolis.de}
+\social[gitlab][gitlab.com]{grellopoulos}
+\photo[3cm]{AndreasGrell.png}  
+\quote{"NON INCIPIENTI SED PERSEVERANTI"}  
+
+\begin{document}
+  \makecvtitle
+
+  \section{Persönliche Daten}
+  \cvline{Geburtstag:}{26.08.1964}
+  \cvline{Geburtsort:}{Hamburg}
+
+  \section{Berufserfahrung}
+  \cventry{12/2020 -- heute}{Webentwicklung und Dokumentation bei Wertgarantie, Hannover}{}{}{}{mit Perl, Dancer2, Template Toolkit, Python, MariaDB, Redis und Docker\\ Weiterentwicklung des Fachhandelsportals \\ (Backend: Mail-Funktionalität, Micro Services unter Dancer2)}
+  \cventry{3/2018 -- 6/2019}{Softwareentwicklung bei DSS, Stockelsdorf}{}{}{}{mit COBOL, Berkeley DB, Perl, Python, SQLite3, \\ Weiterentwicklung der Abonnementsverwaltungssoftware}
+  \cventry{6/2017 -- 10/2017}{Systementwicklung bei Delticom, Hannover}{}{}{}{mit Perl, MySQL, SQLite3, Redis, JavaScript/AJAX/jQuery, HTML5, CSS, \\ Weiterentwicklung der Web-Office-Software}
+  \cventry{1/2016 -- 7/2016}{Softwareentwicklung und Dokumentation bei ARIVA.DE, Kiel}{}{}{}{mit Perl, Python, MySQL, SQLite3, Redis, HTML5, CSS,  \\ Generation von Produktinformationsblättern als HTML und PDF}
+  \cventry{9/2015 -- 10/2015}{Softwareentwicklung bei nachtblau tv, Hamburg}{}{}{}{mit Python, Django, PostgreSQL, \\ Weiterentwicklung der Medien-Asset-Management-Software}
+  \cventry{2/2014 -- 6/2015}{Softwareentwicklung bei HAVI GmbH \& Co. KG, Hamburg}{}{}{}{mit Perl, Python, C/C++, MySQL, SQLite3, Redis, \\ im Rahmen von Datenmigrationsprojekten}
+  \cventry{1994 -- 2013}{Schlussredaktion}{}{}{}{bei DER SPIEGEL, TV Movie, TV Spielfilm, Amica und PRINZ, Hamburg}
+  \cventry{1989 -- 2000}{Sprachunterricht für Gruppen und Einzellerner}{}{}{}{}
+
+  \section{Programmier-/Skriptsprachen}
+  \cventry{}{Perl (Dancer2, Moose, DBIx::Class), Python,}{}{}{}{}
+  \cventry{}{Bash/zsh, C, Java, COBOL, JavaScript}{}{}{}{}
+  \section{Datenbanken/SQL}
+  \cventry{}{MySQL/MariaDB, SQLite3, PostgreSQL}{}{}{}{}
+  \section{Datenbanken/NoSQL}
+  \cventry{}{Redis, MongoDB}{}{}{}{}
+  
+  \pagebreak
+  
+  \section{Auszeichnungssprachen}
+  \cventry{}{HTML5, CSS, Markdown}{}{}{}{}
+  
+  \section{Tools}
+  \cventry{}{Emacs, Vim, Git, reguläre Ausdrücke, Perl Testing-Framework,}{}{}{}{}
+  \cventry{}{Linux-/UNIX-Tools, \LaTeX2e, MailHog, Selenium}{}{}{}{}
+
+  \section{Virtualisierung / \quotes{Containerisierung}}
+  \cventry{}{VirtualBox, VMWare, Docker}{}{}{}{}
+  
+  \section{Bildbearbeitung}
+  \cventry{}{GIMP, MyPaint}{}{}{}{}
+  \section{Betriebssysteme}
+  \cventry{}{Linux (Manjaro, Arch Linux, Debian, CentOS/Fedora)}{}{}{}{}
+  \cventry{}{MacOS X, Windows XP -- Windows 10}{}{}{}{}
+  
+  \section{Zusatzqualifikation}
+  \cventry{2019/2020}{Oracle Certified Associate Java Programmer}{}{}{}{}
+
+  \section{Zusatzqualifikation}
+  \cventry{2008/2009}{Zertifizierter C/C++-Programmierer unter Linux}{}{}{}{Studiengemeinschaft Darmstadt}
+
+\section{Akademischer Abschluss}
+  \cventry{Juni 1998}{Magister Artium in Hispanistik und Germanistik}{}{}{}{}
+  \cventry{Magisterarbeit}{Die Metaphorik in der frühen Lyrik Cernudas}{}{}{}{}
+
+  \section{Ausbildung}
+  \cventry{1984 -- 1985}{Ausbildung zum Feinmechaniker}{}{}{}{}
+
+  \section{Schulbildung}
+  \cventry{1978 -- 1984}{Gymnasium Ohmoor, Hamburg, daselbst Abitur}{}{}{}{}
+  \cventry{1975 -- 1978}{Gymnasium Uhlenhorst-Barmbek, Hamburg}{}{}{}{}
+  \cventry{1971 -- 1975}{Grundschule Meerweinstraße, Hamburg}{}{}{}{}
+  
+  \section{Studium}
+  \cventry{1987 -- 1998}{Hispanistik, Germanistik, Philosophie, Indogermanistik}{}{}{}{}
+  \cventry{}{klassische Philologie}{}{}{}{Universität Hamburg}
+  
+  \section{Zivildienst}
+  \cventry{1985 -- 1987}{Zivildienst als Altenpfleger}{}{}{}{}
+
+  \section{Studium}
+  \cventry{1985}{Studium der Hispanistik und Germanistik}{}{}{}{Universität Hamburg}
+
+\pagebreak
+  
+\section{Texterstellung}
+\cventry{}{Dokumentation und Erstellung von Texten über technische}{}{}{}{}
+\cventry{}{und geisteswissenschaftliche Themen auf Deutsch, Spanisch}{}{}{}{}
+\cventry{}{und Englisch}{}{}{}{}
+
+\section{Übersetzungen}
+\cventry{}{Deutsch-Spanisch-Deutsch, Deutsch-Englisch-Deutsch,}{}{}{}{}
+\cventry{}{Französisch-Deutsch, Portugiesisch-Deutsch,}{}{}{}{}
+\cventry{}{Italienisch-Deutsch, Lateinisch-Deutsch, Altgriechisch-Deutsch}{}{}{}{}
+\cventry{}{aus Literatur, Technik und Werbung}{}{}{}{}
+
+\section{Dolmetschen}
+\cventry{}{Deutsch-Spanisch-Deutsch}{}{}{}{}
+  
+\section{Kenntnisse moderner Sprachen}
+\cvlanguage{Spanisch}{neben Deutsch bei uns im Haushalt Alltagssprache}{}{}
+\cvlanguage{Galicisch}{sporadisch im Alltag verwendet}{}{}
+\cvlanguage{Englisch}{Fachliteratur, Filme}{}{}
+\cvlanguage{Französisch}{Literatur, Filme}{}{}
+\cvlanguage{Portugiesisch}{Literatur, Filme}{}{}
+\cvlanguage{Italienisch}{im Rahmen literaturwissenschaftlicher Projekte}{}{}
+
+\section{Kenntnisse alter Sprachen}
+\cvlanguage{Latein}{großes Latinum}{}{}
+\cvlanguage{Altgriechisch}{Graecum}{}{}
+\cvlanguage{Althebräisch}{Torah}{}{}
+\cvlanguage{Sanskrit}{Buddhistische Texte }{}{}
+\cvlanguage{Syrisch}{Mittelalterliche Texte}{}{}
+
+\section{Besondere Interessen}
+\cvlist{}{}{}{}{}{Philosophie, Kultur- und Geistesgeschichte, Gitarre, Ukulele, Banjo, Malerei, Campen}
+
+\vfill
+\photo{firma.jpg}
+Andreas Grell\\
+Hamburg, \today
+\end{document} 
